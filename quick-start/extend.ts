@@ -1,6 +1,10 @@
 namespace Extend {
 
-  class Animal {
+  interface AbsAnimal {
+    sayHello(): void;
+  }
+
+  class Animal implements AbsAnimal {
     private name: string;
     constructor(name: string) {
       this.name = name
