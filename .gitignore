@@ -1,2 +1,4 @@
 *.js
+types
 yarn.lock
+node_modules
